@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.description {
+  background-image: url(../img/dataandpersonalization_scene_info_you_share_720x256_4608e5dd638fe30ba23c0f574c8d2f9a.png);
+  background-repeat: no-repeat;
+  background-position: 95% 50%;
+  background-size: 400px;
+  color: gray;
+}
+
+.description-title {
+  width: 50%;
+  font-size: 40px;
+}
+
+.description-content {
+  width: 50%;
+  font-size: 20px;
+}
+
+.options-list {
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.option-item {
+  padding: 10px;
+}
+
+.option-item--border-bottom {
+  border-bottom: 1px solid gray;
+}
+
+.option-name {
+  display: inline-block;
+  width: 50%;
+}
